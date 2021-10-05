@@ -1,10 +1,10 @@
 locals {
 ## set variables for the vpc,subnet,user,keyname and key path
-  vpc_id           = ""
-  subnet_id        = ""
-  ssh_user         = ""
-  key_name         = ""
-  private_key_path = ""
+  vpc_id           = "vpc-xxxx"
+  subnet_id        = "subnet-xxxx"
+  ssh_user         = "ubuntu"
+  key_name         = "keyname"
+  private_key_path = "~/Examplepath/examplekey.pem"
 }
 
 provider "aws" {
